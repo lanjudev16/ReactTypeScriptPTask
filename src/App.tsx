@@ -1,14 +1,14 @@
 import "./App.css";
-import Books from "./components/Books";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import Posts from "./components/Posts";
 
 function App() {
   return (
-    <div className="bg-gray-100">
+    <div className="">
       <Navbar />
       <div className=" min-h-[calc(100vh-120px)] max-w-7xl mx-auto mb-10 mt-5">
-        <Books />
+        <Posts></Posts>
       </div>
       <Footer />
     </div>
